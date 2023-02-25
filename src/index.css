@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+/* General Colors */
+:root {
+    --dark-oxford-blue: #060020;
+    --oxford-blue: #080028;
+    --light-oxford-blue: #0B032B;
+    --ultra-dark-russian-violet: #090030;
+    --darker-russian-violet: #0B0038;
+    --dark-russian-violet: #0C003C;
+    --russian-violet: #0C0040;
+    --light-russian-violet: #170C49;
+    --lighter-russian-violet: #1D124D;
+    --ultra-lighter-russian-violet: #221751;
+    --navy-blue: #180080;
+    --ultramarine: #271088;
+    --indigo: #352090;
+    --rebecca-purple: #5240A0;
+    --slate-blue: #6F60B0;
+    --tropical-indigo: #8C80C0;
+    --lavender-web: #E5E0FF;
+    --magnolia: #F2F0FF;
+    --ghost-white: #F9F8FF;
+    --white: #FFFFFF;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    color: var(--ghost-white);
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    min-height: 100vh;
+    background: var(--oxford-blue);
+}
+
+.link {
+    cursor: pointer;
+    text-decoration: none;
+}
