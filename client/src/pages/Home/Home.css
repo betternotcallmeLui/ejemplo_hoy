@@ -1,0 +1,64 @@
+.mainExample {
+    background-image: url(../../assets/circle-scatter-haikei.svg);
+    width: 98vw;
+    height: 100vh;
+}
+
+.mainContent {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.principalContent {
+    max-width: calc(1080px + 32px);
+    margin: 0 auto;
+    padding: 0 16px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.principalContent_text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.principalContent_textHeader {
+    margin-bottom: 20px;
+
+    font-size: 70px;
+    font-weight: 700;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+
+    background: linear-gradient(45deg, #060020 0%, #180080 35%, #00D4FF 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.principalContent_textContent {
+    font-size: 35px;
+    font-weight: 400;
+    width: 700px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.getStarted {
+    background-color: var(--navy-blue);
+    color: var(--ghost-white);
+    font-size: 20px;
+    padding: 5px 30px;
+    border-radius: 16px;
+    transition: 0.4s ease-in-out;
+}
+
+.getStarted:hover {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}

@@ -1,0 +1,92 @@
+.SignupContainer {
+    width: 500px;
+    height: 600px;
+    border-radius: 3px;
+    background-color: var(--white);
+    color: var(--dark-oxford-blue);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.SignupFlex {
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.SignupHeader {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.nameSignup_text {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.nameSignup {
+    padding: 10px 12px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 18, 24, 0.2);
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.emailSignup_text {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.emailSignup {
+    padding: 10px 12px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 18, 24, 0.2);
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.emailSignup:focus {
+    outline: 1px solid rgba(53, 32, 144, 0.6);
+}
+
+.passwordContainerSignup {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.passwordSignup_text {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.passwordSignup {
+    padding: 10px 12px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 18, 24, 0.2);
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.passwordSignup:focus {
+    outline: 1px solid rgba(53, 32, 144, 0.6);
+}
+
+.buttonSignup {
+    width: 100%;
+    background-color: var(--rebecca-purple);
+    color: var(--white);
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}

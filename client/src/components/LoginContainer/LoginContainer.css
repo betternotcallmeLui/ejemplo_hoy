@@ -1,0 +1,83 @@
+.loginContainer {
+    width: 500px;
+    height: 500px;
+    border-radius: 3px;
+    background-color: var(--white);
+    color: var(--dark-oxford-blue);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.loginFlex {
+    width: 70%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.loginHeader {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+
+.emailLogin_text {
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.emailLogin {
+    padding: 10px 12px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 18, 24, 0.2);
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.emailLogin:focus {
+    outline: 1px solid rgba(53, 32, 144, 0.6);
+}
+
+.passwordContainerLogin {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.passwordLogin_text {
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.passwordLogin {
+    padding: 10px 12px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 18, 24, 0.2);
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.passwordLogin:focus {
+    outline: 1px solid rgba(53, 32, 144, 0.6);
+}
+
+.forgotPasswordLogin {
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--rebecca-purple);
+}
+
+.buttonLogin {
+    width: 100%;
+    background-color: var(--rebecca-purple);
+    color: var(--white);
+    border: 0;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+}
